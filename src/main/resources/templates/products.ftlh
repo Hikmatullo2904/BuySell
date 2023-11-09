@@ -25,7 +25,7 @@
         Maxsulot tavsifi <input type="text" name="description"><br><br>
         Maxsulot narxi <input type="text" name="price"><br><br>
         Shaxar <input type="text" name="city"><br><br>
-        Maxsulot egasi <input type="text" name="name"><br><br>
+        Maxsulot egasi <input type="text" name="owner"><br><br>
         <input type="submit" value="add product">
     </form>
 </body>

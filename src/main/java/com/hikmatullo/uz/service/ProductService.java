@@ -34,7 +34,7 @@ public class ProductService {
     public List<Product> getProducts(String title) {
         if(title != null) return productRepository.findByTitle(title);
         List<Product> all = productRepository.findAll();
-        all.forEach(System.out::print);
+        //all.forEach(System.out::print);
         return all;
     }
 
